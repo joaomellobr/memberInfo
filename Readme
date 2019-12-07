@@ -1,0 +1,24 @@
+API GET-Members - Use method GET
+https://0l4z8snnte.execute-api.us-east-1.amazonaws.com/memb/members
+Return (id: 1, id: 2, id: 3)
+
+
+API POST-Members - Use method: POST
+https://0l4z8snnte.execute-api.us-east-1.amazonaws.com/memb/members/4
+body: {
+	"id": "4",
+	"membername": “Hire me",
+	"memberemail": "hireme@hardword.com"
+}
+
+API UPDATE-Members - Use method: PATCH
+https://0l4z8snnte.execute-api.us-east-1.amazonaws.com/memb/members/1
+body: {
+	"id": "1",
+	"membername": “Test 123",
+	"memberemail": "test@gmail.com"
+}
+
+API DELETE-Members - Use method: DELETE
+https://0l4z8snnte.execute-api.us-east-1.amazonaws.com/memb/members/2
+Will be delete the member 2
